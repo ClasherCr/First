@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:foregroundTintMode="add"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/create"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/account"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/textfillbg"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#6F6F6F"
+        android:autofillHints="
+"
+        tools:ignore="HardcodedText,RtlSymmetry,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/textfillbg"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#6F6F6F"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/textfillbg"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:outlineProvider="none"
+        android:paddingStart="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#6F6F6F"
+        android:autofillHints=""
+        tools:ignore="RtlSymmetry,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="190dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/sign_in"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="64dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="190dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/todo"
+        android:scaleType="center"
+        app:srcCompat="@drawable/button"
+        tools:ignore="ContentDescription,TouchTargetSizeCheck,VisualLintBounds" />
+</LinearLayout>
