@@ -7,4 +7,8 @@
     <string name="email">Email</string>
     <string name="sign_in">Sign In</string>
     <string name="todo">TODO</string>
+    <string name="Recover">\n</string>
+    <string name="recover">Recover</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="open_website">Open Website</string>
 </resources>
