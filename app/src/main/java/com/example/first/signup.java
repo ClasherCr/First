@@ -16,7 +16,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class signup extends AppCompatActivity {
     EditText emailrecover;
     ImageButton imageButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,9 +36,7 @@ public class signup extends AppCompatActivity {
             }
         });
 
-
     }
-
     public void openWebPage() {
         Uri webpage = Uri.parse("https://www.google.com");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
