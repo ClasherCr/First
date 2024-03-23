@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepagebg"
+    android:orientation="vertical"
+    tools:context=".homepage">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/relay_1"
+            android:textAlignment="center"
+            android:textColor="#3E2723" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/relay_2"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Switch
+            android:id="@+id/switch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_medium"
+            android:minHeight="48dp"
+            android:text="@string/status_1"
+            app:layout_column="0"
+            app:layout_row="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_medium"
+            android:minHeight="48dp"
+            android:text="@string/status_2"
+            app:layout_column="1"
+            app:layout_row="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/relay_3"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/relay_4"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            app:layout_column="3"
+            app:layout_row="0"
+            tools:ignore="VisualLintBounds" />
+
+        <Switch
+            android:id="@+id/switch9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_medium"
+            android:minHeight="48dp"
+            android:text="@string/status_3"
+            app:layout_column="2"
+            app:layout_row="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Switch
+            android:id="@+id/switch10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_medium"
+            android:minHeight="48dp"
+            android:text="@string/status_4"
+            app:layout_column="3"
+            app:layout_row="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+
+            android:clickable="true"
+            app:backgroundTint="#C19797"
+            app:layout_column="3"
+            app:layout_row="3"
+            app:srcCompat="@android:drawable/ic_menu_share"
+            android:contentDescription="TODO"
+            android:focusable="true"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</LinearLayout>

@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 String inputpassword = passwoed.getText().toString();
                 String inputemail = email.getText().toString();
                 Toast.makeText(MainActivity.this, "Welcome " + inputname + " to my app", Toast.LENGTH_SHORT).show();
+                goTohomeactivity();
             }
         });
 
@@ -60,6 +61,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void goTosecondActivity() {
         Intent intent = new Intent(this, signup.class);
+        startActivity(intent);
+    }
+    public void goTohomeactivity(){
+        Intent intent = new Intent(this, homepage.class);
         startActivity(intent);
     }
 

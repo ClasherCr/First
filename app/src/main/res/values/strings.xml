@@ -12,4 +12,13 @@
     <string name="enter_email">Enter Email</string>
     <string name="open_website">Open Website</string>
     <string name="Smart_Home_Iot">\n</string>
+    <string name="status_4">Status 4</string>
+    <string name="status_1">Status 1</string>
+    <string name="status_2">Status 2</string>
+    <string name="status_3">Status 3</string>
+    <string name="relay_2">Relay 2</string>
+    <string name="relay_3">Relay 3</string>
+    <string name="relay_4">Relay 4</string>
+    <string name="relay_1">Relay 1</string>
+    <string name="choose_a_platform">Choose a Platform</string>
 </resources>
